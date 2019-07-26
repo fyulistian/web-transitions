@@ -5,6 +5,9 @@ Smooth Page Transitions Website Page
 This is - Simple version -
 Create Smooth Transitions website
 
+https://webgradients.com/
+https://highway.js.org/
+
 ### Setup
 
 ```
