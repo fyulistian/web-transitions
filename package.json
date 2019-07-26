@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/fyulistian/web-transitions/issues"
   },
-  "homepage": "https://github.com/fyulistian/web-transitions#readme"
+  "homepage": "https://github.com/fyulistian/web-transitions#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }

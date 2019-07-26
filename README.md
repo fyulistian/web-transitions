@@ -1,9 +1,9 @@
 # web-transitions
-Smooth Page Transitions on Website
+Smooth Page Transitions Website Page
 
 ## Feature
 This is - Simple version -
-Create Transitions on website
+Create Smooth Transitions website
 
 ### Setup
 
