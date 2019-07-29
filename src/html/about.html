@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Home - Page</title>
+    <title>About - Page</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="/src/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/src/images/favicon/favicon-32x32.png">
@@ -17,24 +17,23 @@
 
     <!-- style -->
     <link rel="stylesheet" href="/src/css/style.css" />
-  </head>
+    </head>
+
   <body>
-    <nav>
-      <ul class="nav-list">
-        <li><a class="nav-links" href="/">Home</a></li>
-        <li><a class="nav-links" href="/about">About</a></li>
-      </ul>
-    </nav>
+    
     <main data-router-wrapper>
-      <section data-router-view="home" class="home">
-        <div class="home-content">
-          <div class="home-presentation">
-            <h1>Seamsless Transition</h1>
-            <p>Beautiful transition between html pages</p>
+      <section data-router-view="about" class="about">
+        <div class="about-content">
+          <div class="about-presentation">
+            <h1>About Page</h1>
+            <p>Learn more about page transitions</p>
           </div>
-          <img src="/src/images/home.svg" alt="home" />
+          <img src="/src/images/about.svg" alt="about" />
         </div>
       </section>
     </main>
-  <script type="text/javascript" src="bundle.js"></script></body>
+
+    <script src="main.js"></script>
+  </body>
+
 </html>

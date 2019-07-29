@@ -1,7 +1,5 @@
-// import Highway from '/node_modules/@dogstudio/highway'
-import Highway from '@dogstudio/highway';
-import Fade from './transition';
-
+import Highway from "@dogstudio/highway";
+import Fade from "./Transitions";
 
 const H = new Highway.Core ({
 	transitions: {
@@ -9,4 +7,16 @@ const H = new Highway.Core ({
 	}
 });
 
-// run("anonymous");
+// // File: main.js
+// // Import Highway
+// import Highway from '@dogstudio/highway';
+
+// // Import Transitions
+// import Fade from './transition.js';
+
+// // Call Highway.Core once.
+// const H = new Highway.Core({
+//   transitions: {
+//     default: Fade
+//   }
+// });
