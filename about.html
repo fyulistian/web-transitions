@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>About - Page</title>
+  
+    <!-- icon & webmanifest -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/public/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/public/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/public/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/public/img/favicon/site.webmanifest">
+
+    <!-- style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />    
+    <link rel="stylesheet" href="/public/css/style.css" />
+  </head>
+  <body>
+    
+    <nav>
+      <ul class="nav-list">
+        <li><a class="nav-links" href="/">Home</a></li>
+        <li><a class="nav-links" href="/about.html">About</a></li>
+      </ul>
+    </nav>
+
+    <main data-router-wrapper>
+      <section data-router-view="about">
+        <div class="content">
+          <div class="presentation">
+            <h1>About Page</h1>
+            <p>Learn more about page transitions</p>
+          </div>
+          <img src="/public/img/about.svg" alt="about" />
+        </div>
+      </section>
+    </main>
+    <script src="/public/js/index.js"></script>
+  </body>
+</html>

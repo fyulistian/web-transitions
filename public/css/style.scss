@@ -1,12 +1,8 @@
-/* font awesome */
-@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
-
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 }
-
 
 .nav-list {
 	height: 10vh;
@@ -26,7 +22,6 @@
 
 .home,
 .about {
-	/*height: 74.7vh;*/
 	height: 90vh;
 	position: absolute;
 	width: 100%;
@@ -38,35 +33,26 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-}
-
-.home-content,
-.about-content img {
-	height: 70%;
-}
-
-.home-content,
-.about-content h1 {
-	font-size: 50px;
-	margin: 30px 0px;
-}
-
-.home-content,
-.about-content p {
-	font-size: 20px;
+	img {
+		height: 70%;
+	}
+	h1 {
+		font-size: 50px;
+		margin: 30px 0px;
+	}
+	p {
+		font-size: 20px;
+	}
 }
 
 .home {
-	/* 023 Rare Wind  CW */
 	background-image: linear-gradient(to top, #fed6e3 0%, #a8edea 100%);
 }
 
 .about {
-	/* 023 Rare Wind */
-	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+	background-image: linear-gradient(to top, #fed6e3 0%, #a8edea 100%);
 }
 
-/*scroll bar*/
 ::-webkit-scrollbar {
   -webkit-appearance: none;
   width: 7px;

@@ -1,3 +1,11 @@
+# ignore this file and folder #
+
+# file
 .env
-/node_modules/*
 package-lock.json
+
+# Folder 
+/.cache/*
+/#backup/*
+/dist/*
+/node_modules/*
