@@ -34,7 +34,8 @@ section {
 }
 
 .content img {
-	height: 70%;
+	height: 70vh;
+	margin: 10vh;
 }
 
 .content h1 {
